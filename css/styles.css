@@ -1,64 +1,47 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: "Hind" "Futura" "sans-serif"; }
 
 img {
   width: 100%;
   display: block; }
+
+.column-container {
+  font-size: 0; }
+
+.column-container > * {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium; }
 
 .main-nav {
   width: 100%;
   display: block;
   position: fixed;
   top: 0;
-  border: solid 1px lightgray;
-  font-size: 0; }
+  right: 0;
+  border: solid 1px lightgray; }
 
 .nav-links {
   width: 30%;
-  display: inline-block;
-  font-size: medium;
-  vertical-align: top;
-  border-right: solid 1px lightgray;
   text-align: center;
-  margin: 0;
+  font-size: 25px;
   padding: 42px 20px 42px 20px; }
 
-.logo-img,
+.logo-container,
 .menu-icon {
   width: 20%;
-  display: inline-block;
-  font-size: medium;
-  vertical-align: top;
   text-align: center;
-  margin: 0;
-  padding: 20px; }
+  font-size: 25px; }
 
-.logo-img {
-  border-right: solid 1px lightgray; }
+.logo-container {
+  padding: 30px; }
 
 .menu-icon {
-  font-size: 25px;
-  font-weight: 100;
-  padding: 30px 0px 30px 0px; }
+  padding: 40px; }
 
-.mini-nav {
-  background-color: black;
-  color: white; }
-
-.restaurant-images {
-  display: inline-block;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: lavender;
-  width: 100%;
-  vertical-align: top; }
-
-h4 {
-  text-align: center; }
-
-h3 {
-  text-align: center; }
+@media screen and (min-width: 1000px) {
+  position: fixed;
+  right: 0; }
 
 /*# sourceMappingURL=styles.css.map */

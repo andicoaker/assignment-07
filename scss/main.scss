@@ -1,86 +1,87 @@
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
+    font-family: "Hind" "Futura" "sans-serif";
 }
-
 
 img {
   width: 100%;
   display: block;
 }
-//
-// .column-container{
-//   font-size: 0;
-//   vertical-align: top;
-// }
+
+.column-container{
+  font-size: 0;
+}
+.column-container > * {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium;
+}
 
 .main-nav{
   width: 100%;
   display: block;
   position: fixed;
   top: 0;
+  right: 0;
   border: solid 1px lightgray;
-  font-size: 0
 }
 
   .nav-links{
     width: 30%;
-    display: inline-block;
-    font-size: medium;
-    vertical-align: top;
-    border-right: solid 1px lightgray;
     text-align: center;
-    margin: 0;
+    font-size: 25px;
     padding: 42px 20px 42px 20px;
   }
 
-  .logo-img,
+  .logo-container,
   .menu-icon{
     width: 20%;
-    display: inline-block;
-    font-size: medium;
-    vertical-align: top;
     text-align: center;
-    margin: 0;
-    padding:20px;
-  }
-
-  .logo-img{
-      border-right: solid 1px lightgray;
-  }
-
-  .menu-icon{
     font-size: 25px;
-    font-weight: 100;
-    padding: 30px 0px 30px 0px;
+  }
+  .logo-container{
+    padding: 30px;
+  }
+  .menu-icon{
+    padding: 40px;
   }
 
-.mini-nav{
-  background-color: black;
-  color: white;
 
+
+@media screen and (min-width: 1000px) {
+  position: fixed;
+  right: 0;
 }
 
 
 
-
-.restaurant-images{
-  display: inline-block;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: lavender;
-  width: 100%;
-  vertical-align: top;
-  // display: block;
-}
-
-h4{
-  text-align: center;
-}
-h3{
-  text-align: center;
-}
+// .mini-nav{
+//   background-color: black;
+//   color: white;
+//
+// }
+//
+//
+//
+//
+// .restaurant-images{
+//   display: inline-block;
+//   margin-top: 40px;
+//   margin-bottom: 40px;
+//   margin-left: 20px;
+//   margin-right: 20px;
+//   background-color: lavender;
+//   width: 100%;
+//   vertical-align: top;
+//   // display: block;
+// }
+//
+// h4{
+//   text-align: center;
+// }
+// h3{
+//   text-align: center;
+// }
 //
 // .noodle-bar-img{
 //   background-image: url("images/momofuku-01-noodlebarbowl.jpg");
