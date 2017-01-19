@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: "Hind" "Futura" "sans-serif";
+    font-family: "Hind", "Futura", "sans-serif";
 }
 
 img {
@@ -46,24 +46,33 @@ img {
     padding: 40px;
   }
 
-
-
-@media screen and (min-width: 1000px) {
-  position: fixed;
-  right: 0;
+.restaurants-nav{
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 100px;
 }
-
-
-
-// .mini-nav{
-//   background-color: black;
-//   color: white;
+  .restaurants-links{
+    padding: 20px;
+    letter-spacing: 2px;
+  }
+  .down-arrow-icon{
+    float: right;
+    font-size: 40px;
+    width: 20%;
+    text-align: center;
+    border-left: solid #a6a3a3 1px;
+    height: 58px;
+    padding-top: 10px;
+  }
 //
+// @media screen and (min-width: 1000px) {
+//   .main-nav{
+//   position: fixed;
+//   right: 0;
+//   }
 // }
-//
-//
-//
-//
+
 // .restaurant-images{
 //   display: inline-block;
 //   margin-top: 40px;
