@@ -2,6 +2,9 @@
   box-sizing: border-box;
   font-family: "Hind", "Futura", "sans-serif"; }
 
+body {
+  margin: 0; }
+
 img {
   width: 100%;
   display: block; }
@@ -14,42 +17,45 @@ img {
   vertical-align: top;
   font-size: medium; }
 
-.main-nav {
-  width: 100%;
-  display: block;
+.nav-bar {
   position: fixed;
   top: 0;
-  right: 0;
+  width: 100%;
+  height: 100px;
   background-color: white;
-  border: solid 1px lightgray; }
+  border: solid 1px lightgray;
+  vertical-align: top;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block; }
+
+.nav-bar li {
+  height: 100px;
+  padding-top: 30;
+  margin: 0;
+  border-right: solid 1px lightgray;
+  text-align: center; }
 
 .nav-links {
   width: 30%;
-  text-align: center;
-  font-size: 25px;
-  padding: 42px 20px 42px 20px; }
+  font-size: 20px; }
 
-.logo-container,
+.small-logo,
 .menu-icon {
-  width: 20%;
-  text-align: center;
-  font-size: 25px; }
-
-.logo-container {
-  padding: 30px; }
-
-.menu-icon {
-  padding: 40px; }
+  width: 20%; }
 
 .restaurants-nav {
   width: 100%;
+  height: 80px;
   background-color: black;
   color: white;
-  margin-top: 120px; }
-
-.restaurants-links {
-  padding: 20px;
+  margin-top: 120px;
   letter-spacing: 2px; }
+
+.restaurants-link {
+  height: 80px;
+  padding: 25px 20px 20px 20px; }
 
 .down-arrow-icon {
   float: right;
@@ -57,19 +63,22 @@ img {
   width: 20%;
   text-align: center;
   border-left: solid #a6a3a3 1px;
-  height: 58px;
+  height: 80px;
   padding-top: 10px; }
 
+.restaurants {
+  padding: 40px 20px 40px 20px; }
+
 .restaurant-images > * {
-  width: 100%; }
+  width: 100%;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  color: #fff; }
 
 .restaurant-images {
   width: 100%;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: lavender; }
+  background-color: orange; }
 
 h4 {
   text-align: center;
@@ -84,5 +93,27 @@ h3 {
 .wavy-line-white {
   width: 10%;
   margin: 0 auto; }
+
+.noodle-bar-img {
+  background-image: url("../images/momofuko-01-noodlebarbowl_mini.jpg") center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative; }
+
+.img-desc {
+  position: absolute;
+  top: 50%;
+  bottom: 50%; }
+
+@media screen and (min-width: 600px) {
+  ul.nav-bar {
+    top: initial;
+    left: 0;
+    top: 0;
+    width: 25%;
+    height: 100%; }
+    ul.nav-bar li {
+      display: block;
+      margin: 0 auto; } }
 
 /*# sourceMappingURL=styles.css.map */
