@@ -1,0 +1,121 @@
+
+// RESTAURANTS COLUMN-CONTAINER
+
+.restaurants{
+  padding: 40px 20px 40px 20px;
+}
+
+.restaurant-images > * {
+  width: 100%;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  color: #fff;
+}
+.restaurant-images{
+  width: 100%;
+  background-color: orange;
+}
+
+.img-desc{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+  h4{
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  h3{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+  }
+  .wavy-line-white{
+    width: 25%;
+    margin: 0 auto;
+  }
+
+
+
+.noodle-bar-img{
+  background: url("../images/momofuko-01-noodlebarbowl_mini.jpg") center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  // width: 100%;
+  // display: block;
+
+}
+
+.ssam-bar-img{
+  background: url("../images/momofuko-02-ssam-bar.jpg") center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.ko-img{
+  background: url("../images/momofuko-03-ko.png") center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.ma-peche-img{
+  background: url("../images/momofuko-04-ma-peche.jpg")
+  center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.nishi-img{
+  background: url("../images/momofuko-05-nishi.jpg")
+  center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.ccdc-img{
+  background: url("../images/momofuko-06-CCDC.jpg")
+  center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.nakai-img{
+  background: url("../images/momofuko-10-bar.jpg")
+  center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.daisho-img{
+  background: url("../images/momofuko-07-daisho.png")
+  center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.shoto-img{
+  background: url("../images/momofuko-08-shoto.png") center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.milk-bar-img{
+  background: url("../images/momofuko-09-milk-bar.jpg") center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}

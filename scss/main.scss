@@ -1,3 +1,9 @@
+// @import “./imports/_nav-bar”;
+// @import “./imports/_restaurants-nav-bar”;
+// @import “./imports/_restaurants-img-container”;
+
+// MAIN STYLES
+
 * {
     box-sizing: border-box;
     font-family: "Hind", "Futura", "sans-serif";
@@ -61,151 +67,141 @@ img {
   }
 
 
-// RESTAURANTS BLACK NAV BAR
+  // RESTAURANTS BLACK NAV BAR
 
-.restaurants-nav{
-  width: 100%;
-  height: 80px;
-  background-color: black;
-  color: white;
-  margin-top: 120px;
-  letter-spacing: 2px;
-}
-  .restaurants-link{
+  .restaurants-nav{
+    width: 100%;
     height: 80px;
-    padding: 25px 20px 20px 20px;
-  }
-  .down-arrow-icon{
-    float: right;
-    font-size: 40px;
-    width: 20%;
-    text-align: center;
-    border-left: solid #a6a3a3 1px;
-    height: 80px;
-    padding-top: 10px;
-  }
-
-// RESTAURANTS COLUMN-CONTAINER
-
-.restaurants{
-  padding: 40px 20px 40px 20px;
-}
-
-.restaurant-images > * {
-  width: 100%;
-  background-size: cover;
-  height: 400px;
-  text-align: center;
-  color: #fff;
-}
-.restaurant-images{
-  width: 100%;
-  background-color: orange;
-}
-
-.img-desc{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -100px;
-}
-
-  h4{
-    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 120px;
     letter-spacing: 2px;
   }
-  h3{
-    text-align: center;
-    margin: 0;
-    padding-bottom: 5px;
-    letter-spacing: 2px;
-  }
-  .wavy-line-white{
-    width: 25%;
-    margin: 0 auto;
-  }
+    .restaurants-link{
+      height: 80px;
+      padding: 25px 20px 20px 20px;
+    }
+    .down-arrow-icon{
+      float: right;
+      font-size: 40px;
+      width: 20%;
+      text-align: center;
+      border-left: solid #a6a3a3 1px;
+      height: 80px;
+      padding-top: 10px;
+    }
+
+    .restaurants-nav-large{
+      display: none;
+    }
 
 
+    // RESTAURANTS COLUMN-CONTAINER
 
-.noodle-bar-img{
-  background: url("../images/momofuko-01-noodlebarbowl_mini.jpg") center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative;
-  // width: 100%;
-  // display: block;
+    .restaurants{
+      padding: 40px 20px 40px 20px;
+    }
 
-}
+    .restaurant-images > * {
+      width: 100%;
+      background-size: cover;
+      height: 400px;
+      text-align: center;
+      color: #fff;
+    }
+    .restaurant-images{
+      width: 100%;
+      background-color: orange;
+    }
 
-.ssam-bar-img{
-  background: url("../images/momofuko-02-ssam-bar.jpg") center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative;
-}
+    .img-desc{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -50px;
+      margin-left: -100px;
+    }
 
-.ko-img{
-  background: url("../images/momofuko-03-ko.png") center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative;
-}
+      h4{
+        text-align: center;
+        letter-spacing: 2px;
+      }
+      h3{
+        text-align: center;
+        margin: 0;
+        padding-bottom: 5px;
+        letter-spacing: 2px;
+      }
+      .wavy-line-white{
+        width: 25%;
+        margin: 0 auto;
+      }
 
-.ma-peche-img{
-  background: url("../images/momofuko-04-ma-peche.jpg")
-  center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative;
-}
 
-.nishi-img{
-  background: url("../images/momofuko-05-nishi.jpg")
-  center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative;
-}
+    .noodle-bar-img{
+      background: url("../images/momofuko-01-noodlebarbowl_mini.jpg") center, center no-repeat;
 
-.ccdc-img{
-  background: url("../images/momofuko-06-CCDC.jpg")
-  center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative;
-}
+      // width: 100%;
+      // display: block;
 
-.nakai-img{
-  background: url("../images/momofuko-10-bar.jpg")
-  center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative;
-}
+    }
 
-.daisho-img{
-  background: url("../images/momofuko-07-daisho.png")
-  center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative;
-}
+    .ssam-bar-img{
+      background: url("../images/momofuko-02-ssam-bar.jpg") center, center no-repeat;
 
-.shoto-img{
-  background: url("../images/momofuko-08-shoto.png") center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative;
-}
+    }
 
-.milk-bar-img{
-  background: url("../images/momofuko-09-milk-bar.jpg") center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative;
-}
+    .ko-img{
+      background: url("../images/momofuko-03-ko.png") center, center no-repeat;
 
+    }
+
+    .ma-peche-img{
+      background: url("../images/momofuko-04-ma-peche.jpg")
+      center, center no-repeat;
+
+    }
+
+    .nishi-img{
+      background: url("../images/momofuko-05-nishi.jpg")
+      center, center no-repeat;
+
+    }
+
+    .ccdc-img{
+      background: url("../images/momofuko-06-CCDC.jpg")
+      center, center no-repeat;
+
+    }
+
+    .nakai-img{
+      background: url("../images/momofuko-10-bar.jpg")
+      center, center no-repeat;
+
+    }
+
+    .daisho-img{
+      background: url("../images/momofuko-07-daisho.png")
+      center, center no-repeat;
+
+    }
+
+    .shoto-img{
+      background: url("../images/momofuko-08-shoto.png") center, center no-repeat;
+
+    }
+
+    .milk-bar-img{
+      background: url("../images/momofuko-09-milk-bar.jpg") center, center no-repeat;
+
+    }
+
+    .rest-img{
+      text-align: center;
+      background-size: cover;
+      color: #fff;
+      position: relative;
+    }
 
 // MEDIA SCREENS
 
@@ -216,11 +212,14 @@ img {
   }
 
   .nav-bar-large{
+    display: block;
     position: fixed;
     left: 0;
     top: 0;
     width: 25%;
     height: 100%;
+    padding: 0;
+    border-right: solid lightgray 1px;
 
    li {
      display: block;
@@ -228,7 +227,53 @@ img {
      width: 100%;
      border-bottom: solid 1px lightgray;
     }
+    .small-logo{
+      padding-top: 20px;
+      padding-bottom: 100px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .nav-links{
+      padding-left: 30px;
+      padding-right: 30px;
+      font-size: 15px;
+      padding-bottom: 5px;
+      padding-top: 20px;
+      text-align: center;
+    }
+    .nav-icons{
+      width: 60%;
+      padding-left: 40px;
+    }
+    .menu-icon{
+      border-bottom: none;
+      padding-left: 30px;
+      padding-right: 30px;
+      font-size: 15px;
+      padding-bottom: 5px;
+      padding-top: 20px;
+      text-align: center;
+    }
+
   }
+  //
+  .restaurants{
+    margin-left: 200px;
+  }
+  .restaurant-images > * {
+    width: 50%;
+  }
+
+  .restaurants-nav{
+    display: none;
+  }
+
+  // .restaurants-nav-large{
+  //   display: inline;;
+  //   position: fixed;
+  //   top: 0;
+  //   margin-top: 0px;
+  // }
 }
 //
 // $desktop-dash-width: 150px;

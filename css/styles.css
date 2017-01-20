@@ -69,6 +69,9 @@ img {
   height: 80px;
   padding-top: 10px; }
 
+.restaurants-nav-large {
+  display: none; }
+
 .restaurants {
   padding: 40px 20px 40px 20px; }
 
@@ -105,62 +108,38 @@ h3 {
   margin: 0 auto; }
 
 .noodle-bar-img {
-  background: url("../images/momofuko-01-noodlebarbowl_mini.jpg") center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative; }
+  background: url("../images/momofuko-01-noodlebarbowl_mini.jpg") center, center no-repeat; }
 
 .ssam-bar-img {
-  background: url("../images/momofuko-02-ssam-bar.jpg") center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative; }
+  background: url("../images/momofuko-02-ssam-bar.jpg") center, center no-repeat; }
 
 .ko-img {
-  background: url("../images/momofuko-03-ko.png") center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative; }
+  background: url("../images/momofuko-03-ko.png") center, center no-repeat; }
 
 .ma-peche-img {
-  background: url("../images/momofuko-04-ma-peche.jpg") center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative; }
+  background: url("../images/momofuko-04-ma-peche.jpg") center, center no-repeat; }
 
 .nishi-img {
-  background: url("../images/momofuko-05-nishi.jpg") center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative; }
+  background: url("../images/momofuko-05-nishi.jpg") center, center no-repeat; }
 
 .ccdc-img {
-  background: url("../images/momofuko-06-CCDC.jpg") center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative; }
+  background: url("../images/momofuko-06-CCDC.jpg") center, center no-repeat; }
 
 .nakai-img {
-  background: url("../images/momofuko-10-bar.jpg") center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative; }
+  background: url("../images/momofuko-10-bar.jpg") center, center no-repeat; }
 
 .daisho-img {
-  background: url("../images/momofuko-07-daisho.png") center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative; }
+  background: url("../images/momofuko-07-daisho.png") center, center no-repeat; }
 
 .shoto-img {
-  background: url("../images/momofuko-08-shoto.png") center, center no-repeat;
-  text-align: center;
-  color: #fff;
-  position: relative; }
+  background: url("../images/momofuko-08-shoto.png") center, center no-repeat; }
 
 .milk-bar-img {
-  background: url("../images/momofuko-09-milk-bar.jpg") center, center no-repeat;
+  background: url("../images/momofuko-09-milk-bar.jpg") center, center no-repeat; }
+
+.rest-img {
   text-align: center;
+  background-size: cover;
   color: #fff;
   position: relative; }
 
@@ -169,15 +148,50 @@ h3 {
     display: none; }
 
   .nav-bar-large {
+    display: block;
     position: fixed;
     left: 0;
     top: 0;
     width: 25%;
-    height: 100%; }
+    height: 100%;
+    padding: 0;
+    border-right: solid lightgray 1px; }
     .nav-bar-large li {
       display: block;
       margin: 0 auto;
       width: 100%;
-      border-bottom: solid 1px lightgray; } }
+      border-bottom: solid 1px lightgray; }
+    .nav-bar-large .small-logo {
+      padding-top: 20px;
+      padding-bottom: 100px;
+      padding-left: 30px;
+      padding-right: 30px; }
+    .nav-bar-large .nav-links {
+      padding-left: 30px;
+      padding-right: 30px;
+      font-size: 15px;
+      padding-bottom: 5px;
+      padding-top: 20px;
+      text-align: center; }
+    .nav-bar-large .nav-icons {
+      width: 60%;
+      padding-left: 40px; }
+    .nav-bar-large .menu-icon {
+      border-bottom: none;
+      padding-left: 30px;
+      padding-right: 30px;
+      font-size: 15px;
+      padding-bottom: 5px;
+      padding-top: 20px;
+      text-align: center; }
+
+  .restaurants {
+    margin-left: 200px; }
+
+  .restaurant-images > * {
+    width: 50%; }
+
+  .restaurants-nav {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
