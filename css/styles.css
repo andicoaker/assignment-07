@@ -141,7 +141,8 @@ h3 {
   text-align: center;
   background-size: cover;
   color: #fff;
-  position: relative; }
+  position: relative;
+  display: inline-block; }
 
 @media screen and (min-width: 600px) {
   .nav-bar {
@@ -174,8 +175,8 @@ h3 {
       padding-top: 20px;
       text-align: center; }
     .nav-bar-large .nav-icons {
-      width: 60%;
-      padding-left: 40px; }
+      margin: 0 auto;
+      width: 25%; }
     .nav-bar-large .menu-icon {
       border-bottom: none;
       padding-left: 30px;
@@ -187,6 +188,9 @@ h3 {
 
   .restaurants {
     margin-left: 200px; }
+
+  .restaurant-images {
+    display: inline-block; }
 
   .restaurant-images > * {
     width: 50%; }

@@ -201,6 +201,7 @@ img {
       background-size: cover;
       color: #fff;
       position: relative;
+      display: inline-block;
     }
 
 // MEDIA SCREENS
@@ -242,8 +243,8 @@ img {
       text-align: center;
     }
     .nav-icons{
-      width: 60%;
-      padding-left: 40px;
+      margin: 0 auto;
+      width: 25%;
     }
     .menu-icon{
       border-bottom: none;
@@ -259,6 +260,9 @@ img {
   //
   .restaurants{
     margin-left: 200px;
+  }
+  .restaurant-images{
+    display: inline-block;
   }
   .restaurant-images > * {
     width: 50%;
