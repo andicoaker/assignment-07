@@ -17,6 +17,9 @@ img {
   vertical-align: top;
   font-size: medium; }
 
+.nav-bar-large {
+  display: none; }
+
 .nav-bar {
   position: fixed;
   top: 0;
@@ -81,7 +84,11 @@ img {
   background-color: orange; }
 
 .img-desc {
-  position: absolute; }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px; }
 
 h4 {
   text-align: center;
@@ -104,68 +111,73 @@ h3 {
   position: relative; }
 
 .ssam-bar-img {
-  background: url("../images/momofuku-02-ssam-bar.jpg") center, center no-repeat;
+  background: url("../images/momofuko-02-ssam-bar.jpg") center, center no-repeat;
   text-align: center;
   color: #fff;
   position: relative; }
 
 .ko-img {
-  background: url("../images/momofuku-03-ko.png") center, center no-repeat;
+  background: url("../images/momofuko-03-ko.png") center, center no-repeat;
   text-align: center;
   color: #fff;
   position: relative; }
 
 .ma-peche-img {
-  background: url("../images/momofuku-04-ma-peche.jpg") center, center no-repeat;
+  background: url("../images/momofuko-04-ma-peche.jpg") center, center no-repeat;
   text-align: center;
   color: #fff;
   position: relative; }
 
 .nishi-img {
-  background: url("../images/momofuku-05-nishi.jpg") center, center no-repeat;
+  background: url("../images/momofuko-05-nishi.jpg") center, center no-repeat;
   text-align: center;
   color: #fff;
   position: relative; }
 
 .ccdc-img {
-  background: url("../images/momofuku-06-CCDC.jpg") center, center no-repeat;
+  background: url("../images/momofuko-06-CCDC.jpg") center, center no-repeat;
   text-align: center;
   color: #fff;
   position: relative; }
 
 .nakai-img {
-  background: url("../images/momofuku-10-bar.jpg") center, center no-repeat;
+  background: url("../images/momofuko-10-bar.jpg") center, center no-repeat;
   text-align: center;
   color: #fff;
   position: relative; }
 
 .daisho-img {
-  background: url("../images/momofuku-07-daisho.png") center, center no-repeat;
+  background: url("../images/momofuko-07-daisho.png") center, center no-repeat;
   text-align: center;
   color: #fff;
   position: relative; }
 
 .shoto-img {
-  background: url("../images/momofuku-08-shoto.png") center, center no-repeat;
+  background: url("../images/momofuko-08-shoto.png") center, center no-repeat;
   text-align: center;
   color: #fff;
   position: relative; }
 
 .milk-bar-img {
-  background: url("../images/momofuku-09-milk-bar.jpg") center, center no-repeat;
+  background: url("../images/momofuko-09-milk-bar.jpg") center, center no-repeat;
   text-align: center;
   color: #fff;
   position: relative; }
 
 @media screen and (min-width: 600px) {
-  ul.nav-bar {
-    top: initial;
+  .nav-bar {
+    display: none; }
+
+  .nav-bar-large {
+    position: fixed;
     left: 0;
     top: 0;
     width: 25%;
     height: 100%; }
-    ul.nav-bar li {
+    .nav-bar-large li {
       display: block;
-      margin: 0 auto; } }
+      margin: 0 auto;
+      width: 100%;
+      border-bottom: solid 1px lightgray; } }
 
 /*# sourceMappingURL=styles.css.map */
