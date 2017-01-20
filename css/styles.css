@@ -80,6 +80,9 @@ img {
   width: 100%;
   background-color: orange; }
 
+.img-desc {
+  position: absolute; }
+
 h4 {
   text-align: center;
   letter-spacing: 2px; }
@@ -91,19 +94,68 @@ h3 {
   letter-spacing: 2px; }
 
 .wavy-line-white {
-  width: 10%;
+  width: 25%;
   margin: 0 auto; }
 
 .noodle-bar-img {
-  background-image: url("../images/momofuko-01-noodlebarbowl_mini.jpg") center no-repeat;
+  background: url("../images/momofuko-01-noodlebarbowl_mini.jpg") center, center no-repeat;
   text-align: center;
   color: #fff;
   position: relative; }
 
-.img-desc {
-  position: absolute;
-  top: 50%;
-  bottom: 50%; }
+.ssam-bar-img {
+  background: url("../images/momofuku-02-ssam-bar.jpg") center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative; }
+
+.ko-img {
+  background: url("../images/momofuku-03-ko.png") center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative; }
+
+.ma-peche-img {
+  background: url("../images/momofuku-04-ma-peche.jpg") center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative; }
+
+.nishi-img {
+  background: url("../images/momofuku-05-nishi.jpg") center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative; }
+
+.ccdc-img {
+  background: url("../images/momofuku-06-CCDC.jpg") center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative; }
+
+.nakai-img {
+  background: url("../images/momofuku-10-bar.jpg") center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative; }
+
+.daisho-img {
+  background: url("../images/momofuku-07-daisho.png") center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative; }
+
+.shoto-img {
+  background: url("../images/momofuku-08-shoto.png") center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative; }
+
+.milk-bar-img {
+  background: url("../images/momofuku-09-milk-bar.jpg") center, center no-repeat;
+  text-align: center;
+  color: #fff;
+  position: relative; }
 
 @media screen and (min-width: 600px) {
   ul.nav-bar {
