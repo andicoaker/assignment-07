@@ -45,6 +45,7 @@ img {
   padding: 0;
   display: block;
   z-index: 1;
+  background-color: #f8f8f8;
 }
 
   .nav-bar li{
@@ -66,11 +67,8 @@ img {
   }
 
 
-  // 2nd BLACK NAV BAR
 
-  .second-nav-large{
-    display: none;
-  }
+  // 2nd BLACK NAV BAR
 
   .second-nav{
     width: 100%;
@@ -94,6 +92,19 @@ img {
       padding-top: 10px;
     }
 
+  .second-nav__large{
+    display: none;
+
+  }
+    .right-links{
+    }
+
+    .concept-link,
+    .location-link{
+      height: 80px;
+      padding: 25px 20px 20px 20px;
+      display: inline-block;
+    }
 
     // RESTAURANTS COLUMN-CONTAINER
 
@@ -201,7 +212,130 @@ img {
 
 // MEDIA SCREENS
 
+
 @media screen and (min-width: 600px){
+
+  .nav-bar{
+    display: none;
+  }
+
+    .nav-bar-large{
+      display: block;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 25%;
+      height: 100%;
+      padding: 0;
+      border-right: solid lightgray 1px;
+      background-color: #f8f8f8;
+
+
+    li {
+       display: block;
+       margin: 0 auto;
+       width: 100%;
+       border-bottom: solid 1px lightgray;
+       letter-spacing: 3px;
+      }
+      .logo-full{
+        padding-top: 20px;
+        padding-bottom: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 22%;
+      }
+      .nav-links{
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 12px;
+        padding-bottom: 5px;
+        padding-top: 30px;
+        text-align: center;
+        height: 18.6%;
+      }
+        .nav-icons{
+          margin: 0 auto;
+          width: 25%;
+        }
+
+      .reservations{
+        border-bottom: none;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 12px;
+        padding-bottom: 5px;
+        padding-top: 30px;
+        text-align: center;
+        height: 22%;
+      }
+
+        .reservations ul{
+          list-style: none;
+          display: inline-block;
+          padding: 0;
+          width: 100%;
+          padding-bottom: 15px;
+        }
+        .reservations li{
+          display: inline-block;
+          width: 20%;
+        }
+        // .reservations i{
+        //   padding-right: 5px;
+        // }
+
+        .social-icons{
+          border: none;
+          // display: inline;
+        }
+
+        .wavy-line-black{
+          width: 20%;
+          margin: 0 auto;
+        }
+
+    }
+    // 2nd NAV BAR Media Screen
+
+    .second-nav__mobile{
+      display: none;
+    }
+
+    // .second-nav{
+    //
+    // }
+
+    .second-nav__large{
+      display: block;
+      position: fixed;
+      top: 0;
+      right: 0;
+      margin: 0;
+      z-index: 1;
+      width: 75%;
+
+    }
+
+
+    // RESTAURANT IMGS Media Screen
+
+    .restaurant-images{
+      display: inline-block;
+      padding: 110px 0px 40px 205px;
+    }
+    .restaurant-images > * {
+      width: 48%;
+    }
+
+    .rest-img{
+      margin: 3px;
+    }
+
+}
+
+
+@media screen and (min-width: 1000px){
 
 // NAV-BAR Media Screen
 
@@ -214,65 +348,105 @@ img {
     position: fixed;
     left: 0;
     top: 0;
-    width: 25%;
+    width: 15%;
     height: 100%;
     padding: 0;
     border-right: solid lightgray 1px;
+    background-color: #f8f8f8;
 
-   li {
+
+  li {
      display: block;
      margin: 0 auto;
      width: 100%;
      border-bottom: solid 1px lightgray;
+     letter-spacing: 3px;
     }
-    .small-logo{
-      padding-top: 20px;
+    .logo-full{
+      padding-top: 40px;
       padding-bottom: 100px;
       padding-left: 30px;
       padding-right: 30px;
+      height: 22%;
     }
     .nav-links{
       padding-left: 30px;
       padding-right: 30px;
-      font-size: 15px;
+      font-size: 12px;
       padding-bottom: 5px;
-      padding-top: 20px;
+      padding-top: 40px;
       text-align: center;
+      height: 18.6%;
     }
-    .nav-icons{
-      margin: 0 auto;
-      width: 25%;
-    }
-    .menu-icon{
+      .nav-icons{
+        margin: 0 auto;
+        width: 25%;
+      }
+
+    .reservations{
       border-bottom: none;
       padding-left: 30px;
       padding-right: 30px;
-      font-size: 15px;
+      font-size: 12px;
       padding-bottom: 5px;
-      padding-top: 20px;
+      padding-top: 40px;
       text-align: center;
+      height: 22%;
     }
+
+      .reservations ul{
+        list-style: none;
+        display: inline-block;
+        padding: 0;
+        width: 100%;
+        padding-bottom: 15px;
+      }
+      .reservations li{
+        display: inline-block;
+        width: 20%;
+      }
+      // .reservations i{
+      //   padding-right: 5px;
+      // }
+
+      .social-icons{
+        border: none;
+        // display: inline;
+      }
+
+      .wavy-line-black{
+        width: 20%;
+        margin: 0 auto;
+      }
 
   }
   // 2nd NAV BAR Media Screen
 
-  .second-nav{
+  .second-nav__mobile{
     display: none;
   }
 
-  // .second-nav-large{
-  //   display: inline;;
-  //   position: fixed;
-  //   top: 0;
-  //   margin-top: 0px;
-  // }
+  .second-nav{
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0;
+    z-index: 1;
+    width: 85%;
+  }
 
-  // RESTAURANT IMGS
+  .second-nav__large{
+    display: block;
+
+  }
+
+
+  // RESTAURANT IMGS Media Screen
 
   .restaurant-images{
     display: inline-block;
-    padding: 40px 5px 40px 200px;
-
+    padding: 40px 0px 40px 225px;
   }
   .restaurant-images > * {
     width: 48%;
@@ -280,14 +454,6 @@ img {
 
   .rest-img{
     margin: 3px;
-
   }
 
-
 }
-//
-// $desktop-dash-width: 150px;
-//
-// #app-container{
-//   padding-top: $desktop-dash-width;
-// }
