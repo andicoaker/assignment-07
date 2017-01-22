@@ -24,7 +24,7 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 100px;
+  height: 80px;
   background-color: white;
   border-bottom: solid 1px lightgray;
   vertical-align: top;
@@ -36,15 +36,26 @@ img {
   background-color: #f8f8f8; }
 
 .nav-bar li {
-  height: 100px;
+  height: 80px;
   padding-top: 30;
   margin: 0;
   border-right: solid 1px lightgray;
   text-align: center; }
 
+.nav-bar img {
+  width: 50%;
+  margin: 0 auto;
+  padding-right: 5px;
+  padding-top: 30px; }
+
 .nav-links {
   width: 30%;
-  font-size: 20px; }
+  font-size: 20px;
+  padding-top: 30px; }
+
+.menu-icon {
+  padding-top: 30px;
+  font-size: x-large; }
 
 .logo,
 .menu-icon {
@@ -52,15 +63,18 @@ img {
 
 .second-nav {
   width: 100%;
-  height: 80px;
+  height: 60px;
   background-color: black;
   color: white;
-  margin-top: 100px;
+  margin-top: 80px;
   letter-spacing: 2px; }
 
-.restaurants-link {
-  height: 80px;
-  padding: 25px 20px 20px 20px; }
+.restaurants-link,
+.concept-link,
+.location-link {
+  height: 60px;
+  padding: 20px;
+  display: inline-block; }
 
 .down-arrow-icon {
   float: right;
@@ -68,21 +82,22 @@ img {
   width: 20%;
   text-align: center;
   border-left: solid #a6a3a3 1px;
-  height: 80px;
-  padding-top: 10px; }
+  height: 60px; }
+
+.second-nav__mobile {
+  width: 100%;
+  height: 60px; }
 
 .second-nav__large {
   display: none; }
 
-.concept-link,
-.location-link {
-  height: 80px;
-  padding: 25px 20px 20px 20px;
-  display: inline-block; }
+.right-links {
+  height: 60px; }
 
 .restaurant-images {
   width: 100%;
-  padding: 40px 20px 40px 20px; }
+  padding: 40px 20px 40px 20px;
+  background-color: #f2f2f2; }
 
 .restaurant-images > * {
   width: 100%;
@@ -149,7 +164,8 @@ h3 {
   color: #fff;
   position: relative;
   display: inline-block;
-  margin-bottom: 4px; }
+  margin-bottom: 4px;
+  height: 300px; }
 
 @media screen and (min-width: 600px) {
   .nav-bar {
@@ -215,6 +231,16 @@ h3 {
   .second-nav__mobile {
     display: none; }
 
+  .second-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0;
+    z-index: 1;
+    width: 75%;
+    height: 60px; }
+
   .second-nav__large {
     display: block;
     position: fixed;
@@ -226,13 +252,14 @@ h3 {
 
   .restaurant-images {
     display: inline-block;
-    padding: 110px 0px 40px 205px; }
+    padding: 100px 0px 40px 205px; }
 
   .restaurant-images > * {
     width: 48%; }
 
   .rest-img {
-    margin: 3px; } }
+    margin: 3px;
+    height: 300px; } }
 @media screen and (min-width: 1000px) {
   .nav-bar {
     display: none; }
